@@ -1,10 +1,13 @@
 import { useState } from 'react'
 import './App.css'
+import NavBar from './components/NavBar'
+import Banner from './components/Banner'
 
 function App() {
   return (
     <>
-    <h1>Hello this is Test Run!!</h1>
+    <NavBar/>
+    <Banner/>
     </>
   )
 }
