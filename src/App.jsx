@@ -9,6 +9,7 @@ import Premium from './components/Premium'
 import GetStart from './components/GetStart'
 import Pricing from './components/Pricing'
 import Footer from './components/Footer'
+import Workflow from './components/Workflow'
 
 const getData = async () => {
   const res = await fetch('./data.json');
@@ -32,6 +33,7 @@ function App() {
       {activeTab === 'cart' && <Cart cart={cart} setCart={setCart} />}
       <GetStart/>
       <Pricing/>
+      <Workflow/>
       <Footer/>
     </>
   )
