@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "name": "AI Writing Pro",
+    "description": "Generate high-quality content, blogs, and marketing copy in seconds with advanced AI.",
+    "price": 29,
+    "period": "Monthly",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": [
+      "Unlimited AI generations",
+      "50+ writing templates",
+      "Grammar checker"
+    ],
+    "icon": "📝"
+  },
+  {
+    "id": 2,
+    "name": "Design Templates Pack",
+    "description": "2000+ premium templates for social media, presentations, and marketing materials.",
+    "price": 49,
+    "period": "One-time",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "2000+ templates",
+      "Monthly updates",
+      "Commercial license"
+    ],
+    "icon": "🎨"
+  },
+  {
+    "id": 3,
+    "name": "Premium Stock Assets",
+    "description": "Access millions of royalty-free photos, videos, and graphics for your projects.",
+    "price": 19,
+    "period": "Monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "10M+ assets",
+      "Commercial use",
+      "No attribution"
+    ],
+    "icon": "📷"
+  },
+  {
+    "id": 4,
+    "name": "Automation Toolkit",
+    "description": "Automate repetitive tasks and streamline your workflow with powerful tools.",
+    "price": 79,
+    "period": "Monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "50+ automations",
+      "API access",
+      "Custom workflows"
+    ],
+    "icon": "⚙️"
+  },
+  {
+    "id": 5,
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes and cover letters that land interviews.",
+    "price": 15,
+    "period": "One-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF"
+    ],
+    "icon": "📄"
+  },
+  {
+    "id": 6,
+    "name": "Social Media Content Kit",
+    "description": "Complete toolkit for creating engaging social media content across all platforms.",
+    "price": 39,
+    "period": "Monthly",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": [
+      "5000+ assets",
+      "Scheduler included",
+      "Analytics dashboard"
+    ],
+    "icon": "📱"
+  },
+  {
+    "id": 7,
+    "name": "Video Editing Suite",
+    "description": "Professional-grade video editing tools with built-in effects and transitions.",
+    "price": 45,
+    "period": "Monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "4K rendering",
+      "Stock audio library",
+      "Multi-track editing"
+    ],
+    "icon": "🎬"
+  },
+  {
+    "id": 8,
+    "name": "SEO Optimizer Pro",
+    "description": "Boost your website's search engine rankings with advanced keyword research.",
+    "price": 59,
+    "period": "Monthly",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": [
+      "Keyword tracking",
+      "Backlink analysis",
+      "Site audit reports"
+    ],
+    "icon": "🚀"
+  },
+  {
+    "id": 9,
+    "name": "Cloud Storage Plus",
+    "description": "Secure and scalable cloud storage for all your business and personal files.",
+    "price": 99,
+    "period": "Yearly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "2TB storage space",
+      "End-to-end encryption",
+      "File versioning"
+    ],
+    "icon": "☁️"
+  },
+  {
+    "id": 10,
+    "name": "Customer CRM Lite",
+    "description": "Manage your customer relationships and sales pipeline in one simple place.",
+    "price": 25,
+    "period": "Monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Lead management",
+      "Email integration",
+      "Basic reporting"
+    ],
+    "icon": "🤝"
+  },
+  {
+    "id": 11,
+    "name": "Web Hosting Starter",
+    "description": "Fast and reliable hosting to get your website online in minutes.",
+    "price": 120,
+    "period": "Yearly",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": [
+      "Free SSL certificate",
+      "99.9% uptime guarantee",
+      "24/7 support"
+    ],
+    "icon": "🌐"
+  },
+  {
+    "id": 12,
+    "name": "Logo Design Kit",
+    "description": "Everything you need to create a stunning brand identity from scratch.",
+    "price": 35,
+    "period": "One-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "Vector source files",
+      "Color palette guide",
+      "Typography pack"
+    ],
+    "icon": "✒️"
+  }
+]

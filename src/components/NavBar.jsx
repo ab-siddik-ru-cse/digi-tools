@@ -27,7 +27,7 @@ const NavBar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end gap-5">
-                    <a  className="hover:text-purple-500 cursor-pointer transition-all"href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                    <a  className="hover:text-purple-500 cursor-pointer transition-all"href=""><i className="fa-solid fa-cart-shopping"></i></a>
                     <a  className="hover:text-purple-500 cursor-pointer transition-all">Login</a>
                     <a className="btn bg-linear-to-r from-blue-700 to-purple-700 rounded-full text-white">Get Started</a>
                 </div>
