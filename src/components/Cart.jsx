@@ -1,50 +1,81 @@
 import React from 'react'
 
 const Cart = ({ cart, setCart }) => {
+
     const handlePayment = () => {
         setCart([]);
     }
+
     const handleRemove = (id) => {
         setCart(cart.filter(item => id !== item.id));
     }
+
     const total = cart.reduce((acc, cur) => acc + cur.price, 0);
+
     return (
-        <div>
-            {cart.length === 0 ?
-                <div className="card bg-gray-100 p-10 max-w-300 mx-auto mb-30">
-                    <h2 className="text-xl text-[#101727] font-bold text-center">Your cart is Empty!!</h2>
+        <div className="px-4">
+
+            {cart.length === 0 ? (
+
+                <div className="bg-gray-100 p-10 md:p-16 max-w-2xl mx-auto my-16 md:my-24 text-center space-y-4 rounded-2xl">
+                    <i className="fa-solid text-4xl md:text-5xl fa-cart-shopping text-purple-500"></i>
+                    <h2 className="text-lg md:text-xl font-bold text-[#101727]">
+                        Your cart is empty!
+                    </h2>
                 </div>
 
-                :
-                <div className="card p-10 max-w-300 mx-auto bg-base-100">
-                    <div className="card-body border-2 border-gray-200 rounded-2xl">
-                        <h1 className='text-xl font-semibold'>Your Cart</h1>
-                        {cart.map(item => <div key={item.id} className='bg-gray-100 p-5 rounded-2xl'>
-                            <div className='flex items-center justify-between'>
-                                <div className='flex items-start gap-5 justify-center'>
-                                    <div className='border border-gray-200 bg-white rounded-full w-14 h-14 flex items-center justify-center'>
-                                        <p className='text-xl flex items-center justify-center'>{item.icon}</p>
+            ) : (
+
+                <div className="max-w-3xl mx-auto bg-white p-4 md:p-6 rounded-2xl shadow-sm">
+
+                    <h1 className='text-lg md:text-xl font-semibold mb-4'>Your Cart</h1>
+
+                    <div className="space-y-4">
+                        {cart.map(item => (
+                            <div key={item.id} className='bg-gray-100 p-4 rounded-xl'>
+
+                                <div className='flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4'>
+
+                                    <div className='flex items-center gap-4'>
+                                        <div className='border border-gray-200 bg-white rounded-full w-12 h-12 flex items-center justify-center'>
+                                            <p className='text-lg'>{item.icon}</p>
+                                        </div>
+
+                                        <div>
+                                            <h2 className="text-base md:text-lg font-semibold text-[#101727]">
+                                                {item.name}
+                                            </h2>
+                                            <h3 className='text-[#627382] text-sm md:text-base'>
+                                                ${item.price}
+                                            </h3>
+                                        </div>
                                     </div>
-                                    <div className='flex flex-col gap-2'>
-                                        <h2 className="text-xl text-[#101727] font-bold">{item.name}</h2>
-                                        <h3 className='text-[#627382] text-lg'>${item.price}</h3>
-                                    </div>
-                                </div>
-                                <div>
-                                    <span onClick={() => handleRemove(item.id)} className='text-[#FF3980] font-semibold text-sm cursor-pointer'>Remove</span>
+
+                                    <span
+                                        onClick={() => handleRemove(item.id)}
+                                        className='text-[#FF3980] text-sm font-medium cursor-pointer hover:underline'
+                                    >
+                                        Remove
+                                    </span>
                                 </div>
                             </div>
-                        </div>)}
-                        <div className='flex items-center justify-between my-3'>
-                            <div className='text-[#627382] text-lg'>Total</div>
-                            <div><span className='text-xl font-bold'>${total}</span></div>
-                        </div>
-                        <div className="mt-6">
-                            <button onClick={handlePayment} className="p-6 btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-full text-white btn-block">Proceed to Checkout</button>
-                        </div>
+                        ))}
                     </div>
+
+                    <div className='flex items-center justify-between mt-6 text-base md:text-lg'>
+                        <span className='text-[#627382]'>Total</span>
+                        <span className='font-bold text-lg md:text-xl'>${total}</span>
+                    </div>
+
+                    <button
+                        onClick={handlePayment}
+                        className="mt-6 w-full py-3 bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-full"
+                    >
+                        Proceed to Checkout
+                    </button>
+
                 </div>
-            }
+            )}
         </div>
     )
 }

@@ -25,7 +25,7 @@ function App() {
 
   return (
     <>
-      <NavBar />
+      <NavBar cart={cart} />
       <Banner />
       <Stats />
       <Premium cart={cart} activeTab={activeTab} setActiveTab={setActiveTab} />

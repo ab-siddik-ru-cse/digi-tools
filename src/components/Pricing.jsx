@@ -2,121 +2,100 @@ import React from 'react'
 
 const Pricing = () => {
     return (
-        <div className='py-30'>
-            <div className='text-center space-y-5'>
-                <h1 className="text-5xl text-[#101727] font-bold">Simple, Transparent Pricing</h1>
-                <p className='text-[#627382] text-[16px]'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
+        <div className='py-16 md:py-24 px-4'>
+            
+            <div className='text-center space-y-4'>
+                <h1 className="text-3xl md:text-4xl lg:text-5xl text-[#101727] font-bold">
+                    Simple, Transparent Pricing
+                </h1>
+                <p className='text-[#627382] text-sm md:text-base'>
+                    Choose the plan that fits your needs. Upgrade or downgrade anytime.
+                </p>
             </div>
-            <div className='grid grid-cols-3 max-w-300 mx-auto mt-10 gap-8'>
-                <div className="card w-96 bg-[#F9FAFC]">
-                    <div className="card-body border-2 border-gray-200 rounded-2xl">
-                        <div className="flex justify-between">
-                            <h2 className="text-2xl text-[#101727] font-bold">Starter</h2>
-                        </div>
-                        <p className='text-[#627382] text-[16px]'>Perfect for getting started</p>
-                        <p className='my-6'><span className="text-5xl font-bold">$0</span> <span className='text-[#627382] text-lg'>/Month</span></p>
-                        <ul className="mt-1 flex flex-col gap-1 text-xs">
-                            <li className='text-[#627382] text-[16px]'>
-                                <i className="fa-solid fa-check size-4 me-2 inline-block text-success"></i>
-                                <span>Access to 10 free tools</span>
-                            </li>
-                            <li className='text-[#627382] text-[16px]'>
-                                <i className="fa-solid fa-check size-4 me-2 inline-block text-success"></i>
-                                <span>Basic templates</span>
-                            </li>
-                            <li className='text-[#627382] text-[16px]'>
-                                <i className="fa-solid fa-check size-4 me-2 inline-block text-success"></i>
-                                <span>Community support</span>
-                            </li>
-                            <li className='text-[#627382] text-[16px]'>
-                                <i className="fa-solid fa-check size-4 me-2 inline-block text-success"></i>
-                                <span>1 project per month</span>
-                            </li>
+
+            <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto mt-10 gap-6'>
+                
+                <div className="bg-[#F9FAFC] p-6 border border-gray-200 rounded-2xl flex flex-col 
+                justify-between transition-transform duration-300 hover:-translate-y-2 will-change-transform">
+                    <div>
+                        <h2 className="text-xl md:text-2xl font-bold text-[#101727]">Starter</h2>
+                        <p className='text-[#627382] text-sm md:text-base'>Perfect for getting started</p>
+
+                        <p className='my-6'>
+                            <span className="text-3xl md:text-5xl font-bold">$0</span>
+                            <span className='text-[#627382] text-sm md:text-lg'> /Month</span>
+                        </p>
+
+                        <ul className="space-y-2">
+                            <li className='text-[#627382] text-sm md:text-base'>✔ Access to 10 free tools</li>
+                            <li className='text-[#627382] text-sm md:text-base'>✔ Basic templates</li>
+                            <li className='text-[#627382] text-sm md:text-base'>✔ Community support</li>
+                            <li className='text-[#627382] text-sm md:text-base'>✔ 1 project per month</li>
                         </ul>
-                        <div className="mt-15">
-                            <button className="p-6 btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-full text-white btn-block">Get Started Free</button>
-                        </div>
                     </div>
+
+                    <button className="mt-6 py-3 w-full bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-full">
+                        Get Started Free
+                    </button>
                 </div>
-                <div className="card w-96 bg-[#F9FAFC]">
-                    <div className="card-body border-2 border-gray-200 rounded-2xl bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white">
-                        <span className='bg-[#FEF3C6] text-[#BB4D00] badge absolute -top-5 right-35 p-4 rounded-full'>Most Popular</span>
-                        <div className="flex justify-between">
-                            <h2 className="text-2xl text-white font-bold">Pro</h2>
-                        </div>
-                        <p className='text-white text-[16px]'>Best for professionals</p>
-                        <p className='my-4'><span className="text-5xl font-bold">$29</span> <span className='text-white text-lg'>/Month</span></p>
-                        <ul className="mt-1 flex flex-col gap-1 text-xs">
-                            <li className='text-white text-[16px]'>
-                                <i className="fa-solid fa-check size-4 me-2 inline-block text-success"></i>
-                                <span>Access to all premium tools</span>
-                            </li>
-                            <li className='text-white text-[16px]'>
-                                <i className="fa-solid fa-check size-4 me-2 inline-block text-success"></i>
-                                <span>Unlimited templates</span>
-                            </li>
-                            <li className='text-white text-[16px]'>
-                                <i className="fa-solid fa-check size-4 me-2 inline-block text-success"></i>
-                                <span>Priority support</span>
-                            </li>
-                            <li className='text-white text-[16px]'>
-                                <i className="fa-solid fa-check size-4 me-2 inline-block text-success"></i>
-                                <span>Unlimited projects</span>
-                            </li>
-                            <li className='text-white text-[16px]'>
-                                <i className="fa-solid fa-check size-4 me-2 inline-block text-success"></i>
-                                <span>Cloud sync</span>
-                            </li>
-                            <li className='text-white text-[16px]'>
-                                <i className="fa-solid fa-check size-4 me-2 inline-block text-success"></i>
-                                <span>Advanced analytics</span>
-                            </li>
+
+                <div className="bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white p-6 rounded-2xl relative flex flex-col 
+                justify-between transition-transform duration-300 hover:-translate-y-2 will-change-transform">
+                    
+                    <span className='absolute -top-3 left-1/2 -translate-x-1/2 bg-[#FEF3C6] text-[#BB4D00] text-xs px-4 py-1 rounded-full'>
+                        Most Popular
+                    </span>
+
+                    <div>
+                        <h2 className="text-xl md:text-2xl font-bold">Pro</h2>
+                        <p className='text-sm md:text-base'>Best for professionals</p>
+
+                        <p className='my-6'>
+                            <span className="text-3xl md:text-5xl font-bold">$29</span>
+                            <span className='text-sm md:text-lg'> /Month</span>
+                        </p>
+
+                        <ul className="space-y-2">
+                            <li className='text-sm md:text-base'>✔ All premium tools</li>
+                            <li className='text-sm md:text-base'>✔ Unlimited templates</li>
+                            <li className='text-sm md:text-base'>✔ Priority support</li>
+                            <li className='text-sm md:text-base'>✔ Unlimited projects</li>
+                            <li className='text-sm md:text-base'>✔ Cloud sync</li>
+                            <li className='text-sm md:text-base'>✔ Advanced analytics</li>
                         </ul>
-                        <div className="mt-1">
-                            <button className="p-6 btn bg-white rounded-full text-purple-500 btn-block">
-                                <span className='bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-transparent bg-clip-text'>Get Started Free</span>
-                            </button>
-                        </div>
                     </div>
+
+                    <button className="mt-6 py-3 w-full bg-white text-purple-600 rounded-full">
+                        Get Started Free
+                    </button>
                 </div>
-                <div className="card w-96 bg-[#F9FAFC]">
-                    <div className="card-body border-2 border-gray-200 rounded-2xl">
-                        <div className="flex justify-between">
-                            <h2 className="text-2xl text-[#101727] font-bold">Enterprise</h2>
-                        </div>
-                        <p className='text-[#627382] text-[16px]'>For teams and businesses</p>
-                        <p className='my-6'><span className="text-5xl font-bold">$99</span> <span className='text-[#627382] text-lg'>/Month</span></p>
-                        <ul className="mt-1 flex flex-col gap-1 text-xs">
-                            <li className='text-[#627382] text-[16px]'>
-                                <i className="fa-solid fa-check size-4 me-2 inline-block text-success"></i>
-                                <span>Everything in Pro</span>
-                            </li>
-                            <li className='text-[#627382] text-[16px]'>
-                                <i className="fa-solid fa-check size-4 me-2 inline-block text-success"></i>
-                                <span>Team collaboration</span>
-                            </li>
-                            <li className='text-[#627382] text-[16px]'>
-                                <i className="fa-solid fa-check size-4 me-2 inline-block text-success"></i>
-                                <span>Custom integrations</span>
-                            </li>
-                            <li className='text-[#627382] text-[16px]'>
-                                <i className="fa-solid fa-check size-4 me-2 inline-block text-success"></i>
-                                <span>Dedicated support</span>
-                            </li>
-                            <li className='text-[#627382] text-[16px]'>
-                                <i className="fa-solid fa-check size-4 me-2 inline-block text-success"></i>
-                                <span>SLA guarantee</span>
-                            </li>
-                            <li className='text-[#627382] text-[16px]'>
-                                <i className="fa-solid fa-check size-4 me-2 inline-block text-success"></i>
-                                <span>Custom branding</span>
-                            </li>
+
+                <div className="bg-[#F9FAFC] p-6 border border-gray-200 rounded-2xl flex flex-col 
+                justify-between transition-transform duration-300 hover:-translate-y-2 will-change-transform">
+                    <div>
+                        <h2 className="text-xl md:text-2xl font-bold text-[#101727]">Enterprise</h2>
+                        <p className='text-[#627382] text-sm md:text-base'>For teams and businesses</p>
+
+                        <p className='my-6'>
+                            <span className="text-3xl md:text-5xl font-bold">$99</span>
+                            <span className='text-[#627382] text-sm md:text-lg'> /Month</span>
+                        </p>
+
+                        <ul className="space-y-2">
+                            <li className='text-[#627382] text-sm md:text-base'>✔ Everything in Pro</li>
+                            <li className='text-[#627382] text-sm md:text-base'>✔ Team collaboration</li>
+                            <li className='text-[#627382] text-sm md:text-base'>✔ Custom integrations</li>
+                            <li className='text-[#627382] text-sm md:text-base'>✔ Dedicated support</li>
+                            <li className='text-[#627382] text-sm md:text-base'>✔ SLA guarantee</li>
+                            <li className='text-[#627382] text-sm md:text-base'>✔ Custom branding</li>
                         </ul>
-                        <div className="mt-3">
-                            <button className="p-6 btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-full text-white btn-block">Get Started Free</button>
-                        </div>
                     </div>
+
+                    <button className="mt-6 py-3 w-full bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-full">
+                        Get Started Free
+                    </button>
                 </div>
+
             </div>
         </div>
     )
