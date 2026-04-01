@@ -39,7 +39,7 @@ const NavBar = ({ cart }) => {
                         Login
                     </a>
 
-                    <button className="px-4 sm:px-5 py-2 bg-gradient-to-r from-blue-700 to-purple-700 text-white rounded-full text-sm sm:text-base transition-all duration-300 ease-in-out hover:scale-105">
+                    <button className="px-4 sm:px-5 py-2 bg-gradient-to-r from-blue-700 to-purple-700 text-white rounded-full text-sm sm:text-base font-medium transition-all duration-300 ease-in-out hover:scale-105">
                         Get Started
                     </button>
 

@@ -1,19 +1,22 @@
 import React from 'react'
+import { toast } from 'react-toastify';
 
 const Cart = ({ cart, setCart }) => {
 
     const handlePayment = () => {
         setCart([]);
+        toast.success('Payment Successfull!');
     }
 
     const handleRemove = (id) => {
         setCart(cart.filter(item => id !== item.id));
+        toast.success('Product Remove from Cart!');
     }
 
     const total = cart.reduce((acc, cur) => acc + cur.price, 0);
 
     return (
-        <div className="px-4">
+        <div className="px-4 ">
 
             {cart.length === 0 ? (
 
@@ -69,7 +72,7 @@ const Cart = ({ cart, setCart }) => {
 
                     <button
                         onClick={handlePayment}
-                        className="mt-6 w-full py-3 bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-full"
+                        className="mt-6 w-full py-3 bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-full cursor-pointer transition-all duration-300 ease-in-out hover:scale-102"
                     >
                         Proceed to Checkout
                     </button>

@@ -3,7 +3,6 @@ const Footer = () => {
         <footer className="bg-[#101727] border-t border-red-900/50 pt-16 pb-10">
             <div className="max-w-7xl mx-auto px-6">
                 <div className="grid grid-cols-1 md:grid-cols-16 gap-12">
-                    {/* Logo & Description */}
                     <div className="md:col-span-5">
                         <div className="flex items-center gap-3 mb-6">
                             <h2 className="text-4xl font-bold tracking-tighter text-white">
@@ -96,18 +95,18 @@ const Footer = () => {
                     <div className="md:col-span-3">
                         <h3 className="text-white font-medium mb-6 text-lg">Social Links</h3>
                         <ul className="space-y-4 text-black flex gap-5">
-                            <li>
-                                <a href="" className="bg-white p-3 rounded-full hover:text-zinc-400 transition">
+                            <li className="transition-all duration-300 ease-in-out hover:scale-105">
+                                <a href="" className="bg-white p-3 rounded-full ">
                                     <i className="fa-brands fa-instagram"></i>
                                 </a>
                             </li>
-                            <li>
-                                <a href="" className="bg-white p-3 rounded-full hover:text-zinc-400 transition">
+                            <li className="transition-all duration-300 ease-in-out hover:scale-105">
+                                <a href="" className="bg-white p-3 rounded-full ">
                                     <i className="fa-brands fa-facebook"></i>
                                 </a>
                             </li>
-                            <li>
-                                <a href="" className="bg-white p-3 rounded-full hover:text-zinc-400 transition">
+                            <li className="transition-all duration-300 ease-in-out hover:scale-105">
+                                <a href="" className="bg-white p-3 rounded-full ">
                                     <i className="fa-brands fa-twitter"></i>
                                 </a>
                             </li>

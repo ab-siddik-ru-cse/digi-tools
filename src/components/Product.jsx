@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { toast } from 'react-toastify';
 
 const Product = ({ product, cart, setCart }) => {
     const [buyNow, setBuyNow] = useState('Buy Now');
@@ -22,6 +23,7 @@ const Product = ({ product, cart, setCart }) => {
             toast.error('Item already in cart!');
             return;
         }
+        toast.success('Product Added to cart!');
         setBuyNow('Added to cart');
         setCart([...cart, product]);
     }
@@ -58,7 +60,7 @@ const Product = ({ product, cart, setCart }) => {
                 </ul>
 
                 <div className="mt-4">
-                    <button onClick={handleBuy} className={`p-6 btn ${buyNow ==='Buy Now' ? 'bg-linear-to-r from-[#4F39F6] to-[#9514FA]' : 'bg-green-600'} text-white rounded-full btn-block`} >{buyNow}</button>
+                    <button onClick={handleBuy} className={`p-6 btn ${buyNow ==='Buy Now' ? 'bg-linear-to-r from-[#4F39F6] to-[#9514FA]' : 'bg-green-600'} text-white rounded-full btn-block `} >{buyNow}</button>
                 </div>
             </div>
         </div>

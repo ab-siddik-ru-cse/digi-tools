@@ -27,14 +27,14 @@ const Pricing = () => {
                         </p>
 
                         <ul className="space-y-2">
-                            <li className='text-[#627382] text-sm md:text-base'>✔ Access to 10 free tools</li>
-                            <li className='text-[#627382] text-sm md:text-base'>✔ Basic templates</li>
-                            <li className='text-[#627382] text-sm md:text-base'>✔ Community support</li>
-                            <li className='text-[#627382] text-sm md:text-base'>✔ 1 project per month</li>
+                            <li className='text-[#627382] text-sm md:text-base'><i className="fa-solid fa-check mt-1 me-3 text-success"></i> Access to 10 free tools</li>
+                            <li className='text-[#627382] text-sm md:text-base'><i className="fa-solid fa-check mt-1 me-3 text-success"></i> Basic templates</li>
+                            <li className='text-[#627382] text-sm md:text-base'><i className="fa-solid fa-check mt-1 me-3 text-success"></i>Community support</li>
+                            <li className='text-[#627382] text-sm md:text-base'><i className="fa-solid fa-check mt-1 me-3 text-success"></i>1 project per month</li>
                         </ul>
                     </div>
 
-                    <button className="mt-6 py-3 w-full bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-full">
+                    <button className="mt-6 py-3 w-full bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-full font-medium">
                         Get Started Free
                     </button>
                 </div>
@@ -56,17 +56,17 @@ const Pricing = () => {
                         </p>
 
                         <ul className="space-y-2">
-                            <li className='text-sm md:text-base'>✔ All premium tools</li>
-                            <li className='text-sm md:text-base'>✔ Unlimited templates</li>
-                            <li className='text-sm md:text-base'>✔ Priority support</li>
-                            <li className='text-sm md:text-base'>✔ Unlimited projects</li>
-                            <li className='text-sm md:text-base'>✔ Cloud sync</li>
-                            <li className='text-sm md:text-base'>✔ Advanced analytics</li>
+                            <li className='text-sm md:text-base'><i className="fa-solid fa-check mt-1 me-3 text-white"></i>All premium tools</li>
+                            <li className='text-sm md:text-base'><i className="fa-solid fa-check mt-1 me-3 text-white"></i>Unlimited templates</li>
+                            <li className='text-sm md:text-base'><i className="fa-solid fa-check mt-1 me-3 text-white"></i> Priority support</li>
+                            <li className='text-sm md:text-base'><i className="fa-solid fa-check mt-1 me-3 text-white"></i>Unlimited projects</li>
+                            <li className='text-sm md:text-base'><i className="fa-solid fa-check mt-1 me-3 text-white"></i> Cloud sync</li>
+                            <li className='text-sm md:text-base'><i className="fa-solid fa-check mt-1 me-3 text-white"></i> Advanced analytics</li>
                         </ul>
                     </div>
 
-                    <button className="mt-6 py-3 w-full bg-white text-purple-600 rounded-full">
-                        Get Started Free
+                    <button className="mt-6 py-3 w-full bg-white text-purple-600 rounded-full font-medium">
+                        Start Pro Trial
                     </button>
                 </div>
 
@@ -82,17 +82,17 @@ const Pricing = () => {
                         </p>
 
                         <ul className="space-y-2">
-                            <li className='text-[#627382] text-sm md:text-base'>✔ Everything in Pro</li>
-                            <li className='text-[#627382] text-sm md:text-base'>✔ Team collaboration</li>
-                            <li className='text-[#627382] text-sm md:text-base'>✔ Custom integrations</li>
-                            <li className='text-[#627382] text-sm md:text-base'>✔ Dedicated support</li>
-                            <li className='text-[#627382] text-sm md:text-base'>✔ SLA guarantee</li>
-                            <li className='text-[#627382] text-sm md:text-base'>✔ Custom branding</li>
+                            <li className='text-[#627382] text-sm md:text-base'><i className="fa-solid fa-check mt-1 me-3 text-success"></i>Everything in Pro</li>
+                            <li className='text-[#627382] text-sm md:text-base'><i className="fa-solid fa-check mt-1 me-3 text-success"></i>Team collaboration</li>
+                            <li className='text-[#627382] text-sm md:text-base'><i className="fa-solid fa-check mt-1 me-3 text-success"></i>Custom integrations</li>
+                            <li className='text-[#627382] text-sm md:text-base'><i className="fa-solid fa-check mt-1 me-3 text-success"></i>Dedicated support</li>
+                            <li className='text-[#627382] text-sm md:text-base'><i className="fa-solid fa-check mt-1 me-3 text-success"></i>SLA guarantee</li>
+                            <li className='text-[#627382] text-sm md:text-base'><i className="fa-solid fa-check mt-1 me-3 text-success"></i>Custom branding</li>
                         </ul>
                     </div>
 
-                    <button className="mt-6 py-3 w-full bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-full">
-                        Get Started Free
+                    <button className="mt-6 py-3 w-full bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-full font-medium">
+                        Contact Sales
                     </button>
                 </div>
 
