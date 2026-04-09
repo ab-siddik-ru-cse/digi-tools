@@ -1,57 +1,114 @@
-#  DigiTools - Digital Tools Marketplace
+# 🚀 DigiTools - Supercharge Your Digital Workflow
 
-##  Project Description
+<p align="center">
+  <img src="./src/assets/screenshots/mockup.png" alt="DigiTools Web Mockup" width="100%">
+</p>
 
-DigiTools is a modern web application where users can explore and purchase premium digital tools such as AI writing software, design templates, automation tools, and more. It provides a smooth user experience with a responsive UI, interactive cart system, and clean design.
 
----
+## 🌟 Overview
 
-##  Technologies Used
-
-* React.js
-*  Tailwind CSS
-*  HTML5
-*  JavaScript (ES6+)
-*  Font Awesome (Icons)
+**DigiTools** is a powerful digital resource hub built with **React.js** and **Tailwind CSS**. It provides a suite of pro-level productivity tools, design assets, and automation kits designed to simplify the modern digital workflow. The project focuses on high-performance rendering, a clean aesthetic, and a seamless user experience.
 
 ---
 
-##  Features
+## 📸 Screenshots & Previews
 
-### 1.  Dynamic Cart System
+### 🛡️ Main Dashboard
+The core interface features a high-impact hero section and real-time statistics showcasing user engagement (50K+ Active Users).
+![Dashboard Preview](./src/assets/screenshots/dashboard.png)
 
-* Add/remove products بسهولة
-* Real-time total price calculation
-* Clean and responsive cart UI
+### 💎 Premium Tools Section
+A curated collection of 6 essential tools (AI Writing, Design Templates, Automation, etc.) presented in a modern, card-based grid layout.
+![Tools Section](./src/assets/screenshots/premium%20tools.png)
 
-### 2.  Product Showcase
-
-* Display multiple digital tools from JSON data
-* Includes pricing, features, and tags (Best Seller, Popular, New)
-* Clean card-based UI with hover animations
-
-### 3.  Fully Responsive Design
-
-* Mobile-first approach
-* Works smoothly on mobile, tablet, and desktop
-* Modern SaaS-style UI
+### ✅ Get Started In Three steps
+A transparent three-tier pricing model combined with a streamlined 3-step onboarding process to maximize conversion.
+![Pricing](./src/assets/screenshots/3step.png)
 
 ---
 
-##  Future Improvements
-
-* Payment integration (Stripe)
-* User authentication system
-* Product filtering & search
+### 💳 Pricing & Onboarding
+A transparent three-tier pricing model combined with a streamlined 3-step onboarding process to maximize conversion.
+![Pricing](./src/assets/screenshots/pricing.png)
 
 ---
 
-##  Preview
+## 🛠️ Tech Stack
 
-> A clean and modern SaaS-style UI for digital product marketplace.
+- **Frontend Framework:** React.js (v18+)
+- **Styling:** Tailwind CSS (Utility-first CSS)
+- **Icons:** Lucide React / React Icons
+- **Animations:** Framer Motion (For smooth UI transitions)
+- **Build Tool:** Vite / Create React App
+- **Deployment:** Vercel / Netlify
 
 ---
 
-## Support
+## ✨ Key Features
 
-If you like this project, give it a Star on GitHub!
+- **✅ Fully Responsive:** Optimized for a flawless experience across Mobile, Tablet, and Desktop devices.
+- **✅ Interactive Metrics:** Dynamic counters for active users, premium tools, and ratings.
+- **✅ Specialized Toolkits:** Categorized resources for AI, Design, Social Media, and Automation.
+- **✅ Modern UI/UX:** A professional purple-themed interface following the latest design trends.
+- **✅ Fast Performance:** Optimized asset loading and component-based architecture for rapid navigation.
+
+---
+
+## 📂 Project Structure
+
+```text
+/digitools
+├── assets/
+│   └── screenshots/     # Project mockup and feature screenshots
+├── src/
+│   ├── components/      # Reusable UI components (Navbar, Hero, Tools, Pricing)
+│   ├── assets/          # Local images and static visual assets
+│   ├── App.jsx          # Main application logic and routing
+│   ├── index.css        # Tailwind directives and global styles
+│   └── main.jsx         # Project entry point
+├── public/              # Public static assets (Favicon, manifest)
+├── tailwind.config.js   # Custom Tailwind theme configurations
+├── package.json         # Dependencies and scripts
+└── README.md            # Project documentation
+```
+
+## 🚀 How to Run Locally
+
+Follow these steps to set up the project on your local machine.
+
+### 📋 Prerequisites
+
+Before you begin, ensure you have the following installed:
+*   **Node.js:** [Download Node.js](https://nodejs.org/) (Recommended version: v16 or higher)
+*   **npm:** This comes automatically with Node.js.
+*   **Git:** To clone the repository.
+
+---
+
+### 🛠️ Step-by-Step Installation
+
+**1. Clone the Repository:**
+Open your terminal or command prompt and run:
+```bash
+git clone https://github.com/ab-siddik-ru-cse/digi-tools.git
+
+```
+
+**2. Navigate to the Project Directory:**
+
+``` bash
+cd digitools
+```
+
+**3. Install Dependencies:**
+
+- This project relies on React and Tailwind CSS. Install the necessary packages by running:
+
+``` bash
+npm install
+```
+**4. Start the Development Server:**
+- Launch the application locally with the following command:
+``` bash
+npm run dev
+```
